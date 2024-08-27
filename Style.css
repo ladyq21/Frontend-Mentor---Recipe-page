@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1: white;
+    --color2: hsl(30, 54%, 90%);
+    --color3: hsl(30, 18%, 87%);
+    --color4: hsl(30, 10%, 34%);
+    --color5: hsl(24, 5%, 18%);
+    --color6: hsl(14, 45%, 36%);
+    --color7: hsl(332, 51%, 32%);
+    --color8: hsl(330, 100%, 98%);
+}
+@font-face{
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 400, 600, 700;
+}
+body{
+    background-color: var(--color2);
+    width: 900px;
+    margin: 0 auto;
+}
+.Context{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--color1);
+    border-radius: 12px;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+.text h1{
+    font-family: Young Serif;
+    font-weight: 400;
+    padding: 5px 0 15px 0;
+}
+p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+section{
+    width: 900px;
+    margin: 0 auto;
+}
+section.Prep{
+    background-color: hsl(330, 100%, 98%);   
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 auto; 
+    width: 90%;
+}
+.cont{
+    padding: 5px;
+}
+.cont h2{
+        color:hsl(14, 45%, 36%); 
+        margin-top: 5px;
+        padding-bottom: 15px;
+}
+.cont li{
+    color: hsl(332, 51%, 32%); 
+}
+.cont p{
+    color:black ;
+}
+.cont strong{
+    color: hsl(24, 5%, 18%);
+}
+section.Ingredients{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+section.Ingredients .Text ul{
+    padding: 20px 0;
+}
+section.Ingredients .Text ul li{
+    padding: 5px 0;
+}
+section.Instruction{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+section.Instruction h2{
+    color:hsl(14, 45%, 36%);
+    margin-top: 15px;
+}
+section.Instruction.Text1{
+    padding: 5px 0;
+}
+section.Instruction.Text1 ol{
+    padding: 20px 0;
+}
+section.Instruction ol li{
+    color: hsl(24, 5%, 18%);
+    padding: 5px 0;
+}
+section.Nutrition{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    
+}
+td{
+    padding: 15px 200px 15px 30px;
+    border-bottom: 1px solid black;
+}
+td strong{
+    color: var(--color6);
+}
+.attribution{
+    padding: 20px;
+}
