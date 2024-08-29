@@ -93,6 +93,11 @@ section.Ingredients{
 }
 h2{
     color:hsl(14, 45%, 36%);
+    font-family: Young serif;
+}
+p{
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
 }
 section.Ingredients .Text ul{
     padding: 20px 0;
@@ -105,10 +110,6 @@ section.Instruction{
     margin: 0 auto;
     padding: 20px;
 }
-/* section.Instruction h2{
-    color:hsl(14, 45%, 36%);
-    margin-top: 15px;
-} */
 section.Instruction.Text1{
     padding: 5px 0;
 }
@@ -122,20 +123,20 @@ section.Instruction ol li{
 section.Nutrition{
     width: 90%;
     margin: 0 auto;
-    padding: 20px;
 }
 table{
     border-collapse: collapse;
 }
-/* tr{
-    
-} */
 td{
     padding: 15px 200px 15px 30px;
     border-bottom: 1px solid black;
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
 }
 td strong{
     color: var(--color6);
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
 }
 .attribution{
     padding: 20px;
