@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* color: var(--color6); */
 }
 :root{
     --color1: white;
@@ -15,7 +16,7 @@
 }
 @font-face{
     font-family: Outfit;
-    src: url(https://fonts.google.com/specimen/Outfit);
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
     font-weight: 400, 600, 700;
 }
 body{
@@ -41,12 +42,14 @@ img{
 }
 .text h1{
     font-family: Young Serif;
-    font-weight: 400;
+    font-weight: 700;
     padding: 5px 0 15px 0;
+    color: var(--color5);
 }
 p{
-    font-size: 16px;
     padding-bottom: 20px;
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-Light.ttf);
 }
 section{
     width: 900px;
@@ -59,27 +62,37 @@ section.Prep{
     margin: 0 auto; 
     width: 90%;
 }
-.cont{
-    padding: 5px;
+.cont ul{
+    padding: 0 0 0 25px;
 }
-.cont h2{
-        color:hsl(14, 45%, 36%); 
-        margin-top: 5px;
-        padding-bottom: 15px;
+.cont h3{
+    color:var(--color7); 
+    margin-top: 5px;
+    padding-bottom: 15px;
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+    font-weight: bold;
 }
 .cont li{
     color: hsl(332, 51%, 32%); 
 }
 .cont p{
-    color:black ;
+    color: var(--color4);
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-Light.ttf);
 }
 .cont strong{
-    color: hsl(24, 5%, 18%);
+    color: var(--color5);
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-SemiBold.ttf);
 }
 section.Ingredients{
     width: 90%;
     margin: 0 auto;
     padding: 20px;
+}
+h2{
+    color:hsl(14, 45%, 36%);
 }
 section.Ingredients .Text ul{
     padding: 20px 0;
@@ -92,10 +105,10 @@ section.Instruction{
     margin: 0 auto;
     padding: 20px;
 }
-section.Instruction h2{
+/* section.Instruction h2{
     color:hsl(14, 45%, 36%);
     margin-top: 15px;
-}
+} */
 section.Instruction.Text1{
     padding: 5px 0;
 }
@@ -114,9 +127,9 @@ section.Nutrition{
 table{
     border-collapse: collapse;
 }
-tr{
+/* tr{
     
-}
+} */
 td{
     padding: 15px 200px 15px 30px;
     border-bottom: 1px solid black;
@@ -126,4 +139,5 @@ td strong{
 }
 .attribution{
     padding: 20px;
+    text-align: center;
 }
